@@ -1,0 +1,1 @@
+Template.featuresList.helpers({  features: function() {    return Features.find({}, {sort: {votes: -1}});  }});

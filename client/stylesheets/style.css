@@ -1,0 +1,15 @@
+h1, h4 {
+  display: inline-block;
+}
+
+#login-dropdown-list {
+  list-style: none;
+}
+
+#login-dropdown-list > .dropdown-menu {
+  left: -250% !important;
+}
+
+.right-menu {
+  margin-top: 35px;
+}

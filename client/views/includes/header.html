@@ -1,0 +1,1 @@
+<template name="header">  <header>    <span class="right-menu pull-right">      {{#if currentUser}}<a href="{{pathFor 'featureAdd'}}" class="add-feature btn btn-primary pull-right">Add feature</a>      {{else}} {{> loginButtons align="left"}}      {{/if}}    </span>    <h1>Felicity</h1>    <p>Tell her what features you want to see next</p>  </header></template>
