@@ -1,6 +1,6 @@
 Built with Meteor.
 
-A simple feature list for development teams. It allows you to upvote features that are requested by your users.
+A simple feature list for development teams. It allows you to keep track and upvote features that are requested by your users.
 
 To do:
 - Restrict posters to logged in.
