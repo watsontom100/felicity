@@ -5,6 +5,7 @@ A simple feature list for development teams. It allows you to keep track and upv
 To do:
 - Restrict users with invite code.
 - Add order numbers to list.
-- Add search bar.
-  Have a better error response than "Access Denied"
+- Make search fuzzy.
+- Have a better error response than "Access Denied"
+- Design.
 - Lots, lots more.

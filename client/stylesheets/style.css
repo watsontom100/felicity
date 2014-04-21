@@ -13,3 +13,21 @@ h1, h4 {
 .right-menu {
   margin-top: 35px;
 }
+
+.search-input input {
+  background: none;
+  outline: none;
+  border:none;
+}
+
+img {
+  max-width:100%;
+}
+
+img.bear {
+  margin-bottom:10px;
+}
+
+header {
+  margin-top: 20px;
+}
