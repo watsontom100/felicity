@@ -6,4 +6,5 @@ To do:
 - Restrict users with invite code.
 - Add order numbers to list.
 - Add search bar.
+  Have a better error response than "Access Denied"
 - Lots, lots more.
