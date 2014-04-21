@@ -1,0 +1,18 @@
+<template name="featuresSearch">
+  <form class="main">
+    <div class="search-input text-center">
+      {{> esInput index='features' id='search' placeholder='Type here'}}
+    </div>
+    <div class="search text-center">
+      {{#if inputIsNotEmpty}}
+        {{#ifEsHasNoResults index='features' id='search'}}
+          {{#if currentUser}}
+            <input type='submit' value='Add feature' class="add-feature btn btn-primary">
+          {{else}}
+            No feature listed... Sign in to add.
+          {{/if}}
+        {{/ifEsHasNoResults}}
+      {{/if}}
+    </div>
+  </form>
+</template>
