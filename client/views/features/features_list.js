@@ -1,1 +1,1 @@
-Template.featuresList.helpers({  features: function() {    return Features.find({}, {sort: {votes: -1}});  }});
+Template.featuresList.helpers({  features: function() {    return Features.find({}, {sort: {votes: -1}});  },  inputIsNotEmpty: function() {    var searchValue = Session.get('searchVal');    return searchValue && searchValue.length > 0;  }});Template.featuresList.events({  'keyup .search-input input': function(e) {    Session.set('searchVal', $(e.target).val());  }});
