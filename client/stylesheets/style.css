@@ -10,14 +10,16 @@ h1, h4 {
   left: -250% !important;
 }
 
-.right-menu {
-  margin-top: 35px;
+.search-input {
+  margin-bottom:10px;
 }
 
 .search-input input {
   background: none;
   outline: none;
   border:none;
+  text-align:center;
+  width:100%;
 }
 
 img {
