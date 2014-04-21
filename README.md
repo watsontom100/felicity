@@ -4,6 +4,7 @@ A simple feature list for development teams. It allows you to keep track and upv
 
 To do:
 - Delete feature in list
+- Change search loading to use spinner
 - Restrict users with invite code.
 - Add order numbers to list.
 - Make search fuzzy.
